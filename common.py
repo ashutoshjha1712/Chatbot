@@ -1,9 +1,6 @@
 from ibm_watsonx_ai.foundation_models import Model
 import streamlit as st
 
-
-load_dotenv()  # Load environment variables from .env file
-
 creds = {
 		"url" : "https://us-south.ml.cloud.ibm.com",
 		"apikey" : "y90rAx1FDO0NEBsp51_4F9VEjCsNH_Xm0-bbLY65eDQ-"
