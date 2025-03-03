@@ -3,9 +3,9 @@ import streamlit as st
 
 creds = {
 		"url" : "https://us-south.ml.cloud.ibm.com",
-		"apikey" : "qdyGtVucbt6PtoHyk5QAnFqjeat4WrbgSDcCPfk3VAyn" #TZ environment
+		"apikey" : "FWjEm_bPc24heXJ3mFHwfsM4jhE3JN66Ag6NMki80KTK" #TZ environment
 }
-project_id = "2f606c5f-f67f-4397-8635-6ca6358f8440" #TZ environment
+project_id = "41d71924-826e-4873-a7d3-5a16d198e6f6" #TZ environment
 
 ## helper function
 def generate_text(model, prompt_input):
