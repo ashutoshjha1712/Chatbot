@@ -1,15 +1,14 @@
 from ibm_watsonx_ai.foundation_models import Model
 import streamlit as st
-import os
-from dotenv import load_dotenv
+
 
 load_dotenv()  # Load environment variables from .env file
 
 creds = {
 		"url" : "https://us-south.ml.cloud.ibm.com",
-		"apikey" : os.getenv("API_KEY")
+		"apikey" : "y90rAx1FDO0NEBsp51_4F9VEjCsNH_Xm0-bbLY65eDQ-"
 }
-project_id = os.getenv("PROJECT_ID") 
+project_id = "21cfeb25-cf88-4099-95d4-db601d5c9730"
 
 ## helper function
 def generate_text(model, prompt_input):
