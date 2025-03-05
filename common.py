@@ -2,10 +2,10 @@ from ibm_watsonx_ai.foundation_models import Model
 import streamlit as st
 
 creds = {
-		"url" : "https://us-south.ml.cloud.ibm.com",
-		"apikey" : "y90rAx1FDO0NEBsp51_4F9VEjCsNH_Xm0-bbLY65eDQ-"
+		"url" : "IBM_CLOUD",
+		"apikey" : "USE_IBM_API_KEY"
 }
-project_id = "21cfeb25-cf88-4099-95d4-db601d5c9730"
+project_id = "USE_IBM_PROJECT_ID"
 
 ## helper function
 def generate_text(model, prompt_input):
